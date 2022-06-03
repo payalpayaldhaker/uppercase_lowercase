@@ -1,6 +1,7 @@
 
 import './App.css';
 import PropTypes from 'prop-types'
+import TextForm from './TextForm';
 function App(propes) {
    //state
     
@@ -13,7 +14,7 @@ function App(propes) {
   
    
   <>
-       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">{propes.title}</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +50,7 @@ function App(propes) {
           </div>
         </div>
       </nav>
-
+      <TextForm title="lowwerCase to upperCase"/>
     
     </>
    
